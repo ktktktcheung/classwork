@@ -1,0 +1,108 @@
+html,
+body {
+  font-family:
+    "LXGW WenKai Mono TC", "Merriweather Sans ital", Verdana, Geneva, Tahoma,
+    sans-serif;
+  /*border: 3px solid red;*/
+  line-height: 2;
+}
+
+* {
+  padding:o;
+  margin:0;
+  
+ /* border: 3px solid red;*/
+} 
+
+.sporty {
+  color: red;
+}
+
+.casual {
+  color: blue;
+}
+
+.formal {
+  color: brown;
+}
+
+main {
+  max-width: 600px;
+  margin: 100px auto;
+  padding: 20px;
+  background-color: #d5e3e6;
+}
+
+h2 {
+  font-size: 32px;
+  font-weight: 800;
+  font-style: normal;
+  text-transform: capitalize;
+  letter-spacing: 2px;
+  word-spacing: 5px;
+  text-align:left;
+}
+
+.card{
+  /*  background-color:#fff;*/
+  padding-left:20px;
+  border-radius:10px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    /*  opacity:0.9;
+*/}
+
+p{
+    color:purple;
+}
+
+p::first-letter{
+
+  text-transform:uppercase;
+}
+
+.sport + p{
+    color:rgb(255,0,0) important;
+}
+
+.card.card-sporty {
+  background: #fff url(./sport_shoes.png) no-repeat center right/200px;
+}
+
+.card-casual{
+ 
+  background: #fff url(./casual_shoes.png) no-repeat center right/200px;
+
+}
+.card-formal{
+
+    background: #fff url(./formal_shoe.jpg) no-repeat center right/200px;
+
+}
+
+button {
+  width:150px;
+  font-size: 16px;
+  padding: 7px 0;
+  margin: 15px 0;
+color:white;
+
+}
+
+.card-sporty button{
+  background-color:red;
+
+}
+.card-casual button{
+    background-color:blue;
+
+}
+
+.card-formal button{
+    background-color:brown;
+}
+
+button:hover{
+  opacity: 0.6;
+  cursor:pointer;
+}
